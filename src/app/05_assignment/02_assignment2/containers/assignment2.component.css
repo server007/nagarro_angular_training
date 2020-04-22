@@ -1,0 +1,25 @@
+.your-code {
+    margin-top: 40px;
+    border: 2px solid darkmagenta;
+}
+
+tr.active,
+tr.active:hover {
+    background-color: mediumaquamarine;
+}
+
+
+/* 
+.table-dark.table-hover tbody tr.active:hover,
+.table-dark.table-hover tbody tr.active {
+    background-color: #2e5f95;
+} */
+
+.card-header {
+    text-align: center;
+}
+
+th,
+td {
+    align-content: center;
+}

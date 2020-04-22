@@ -1,0 +1,17 @@
+<div class="assignment1">
+    <div class="alert alert- info">Follow the steps:</div>
+    <ul class="list-group">
+        <li class="list-group-item">Create an input of type "text"</li>
+        <li class="list-group-item">Attach a template reference variable to the input</li>
+        <li class="list-group-item">Attach an "input" event passing in the value of textbox to the handler</li>
+        <li class="list-group-item">Create handler in the component's class</li>
+        <li class="list-group-item">Display the result on the page via string interpolation</li>
+    </ul>
+    <div class="container your-code">
+        <div class="input-group mb-3">
+            <input type="text" (input)="show(inp_text)" class="form-control" placeholder="Write Something" aria-describedby="button-addon2" #inp_text>
+        </div>
+        <h6>Written text : {{print_data}}</h6>
+
+    </div>
+</div>
